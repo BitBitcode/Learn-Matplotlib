@@ -14,4 +14,5 @@ matplotlib.pyplot.plot([0, 1, 2, 3, 4], [0, 1, 2, 3, 4])    # 用列表的形式
 matplotlib.pyplot.plot(x, y)                                # 用变量的形式传入数据
 
 # 【显示绘图窗口】
+matplotlib.pyplot.autoscale(enable=True, axis='both', tight=True)
 matplotlib.pyplot.show()
